@@ -1,0 +1,22 @@
+.container > div {
+    cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39,
+    auto;
+    top:30vh;
+    left: 58vw;
+    cursor: pointer;
+    position: absolute;
+    width: 39vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 800;
+    font-size: 25em;
+    will-change: transform, opacity;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    box-shadow:  0px 5px 10px #dbcbbe, 0px 2px 5px #dbcbbe;
+  }
+

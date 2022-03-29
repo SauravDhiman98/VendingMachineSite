@@ -1,0 +1,85 @@
+
+
+* {
+
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+
+
+
+
+li{
+  color: black;
+  background: white;
+  width: 200px;
+  padding: 15px 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  z-index: 1;
+}
+
+li:hover{
+  box-shadow: 3px 0px 0px rgb(189, 213, 49);
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  transition: transform 200ms;
+  z-index: 1;
+}
+
+a:hover{
+ transform: translateY(-5px);
+}
+
+button
+{
+
+   border: none;
+   text-transform: uppercase;
+  z-index: 12;
+ background: transparent;
+      font-size: 2.5vh;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform .25s ease-in;
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+#btn:hover{
+  transform: translateY(-10px);
+}
+
+
+
+#ptag:hover{
+  font-size: 15px;
+ 
+ 
+}
+
