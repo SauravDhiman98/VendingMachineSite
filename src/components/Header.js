@@ -96,7 +96,7 @@ left: 0;
 right: 0;
 height: 70px;
 position:fixed;
-background: white;
+background: rgba(0,0,0, .5);
 display:flex;
 flex-direction: row;
 align-items:center;

@@ -2,7 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 import Jump from 'react-reveal/Jump';
-import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
 
 
 function Section(){
@@ -10,11 +10,11 @@ function Section(){
     return(
    
     <Container>
-         <Fade left>
+         <Flip top>
          <WrapText1>
              <h2>MEET YOUR PROFIT MAKERS</h2>
          </WrapText1>
-         </Fade>
+         </Flip>
 
          
          <WrapText2>
@@ -22,14 +22,14 @@ function Section(){
              Vending Machine Supplier.</h1>
          </WrapText2>
          
-         <Fade right>
+         <Flip bottom>
          <Wraptext3>
               <p>
                 Vending.com is the "factory direct supplier" of different types
                  of best quality vending machines to meet the needs of all bussinesses.
               </p>
          </Wraptext3>
-         </Fade>
+         </Flip>
          <Jump>
            
          <Button id="orderbtn">
@@ -51,7 +51,7 @@ const Container = styled.div`
    background-size:cover;
    background-position: center;
    background-repeat: no-repeat;
-   background: rgba(0,0,0, .9);
+   background: transparent;
    display:flex;
    flex-direction: column;
    position:fixed;

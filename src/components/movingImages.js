@@ -3,6 +3,9 @@ import { useTransition, animated, AnimatedProps, useSpringRef } from '@react-spr
 
 import styles from './styles.module.css'
 
+
+// Moving image for Social Services......
+
 const pages: ((props: AnimatedProps<{ style: CSSProperties }>) => React.ReactElement)[] = [
   ({ style }) => <animated.div style={{ ...style, background: 'transparent' }}><img style={{...style, width: '45vw', height:'40vh'}} src='/Images/VM1.jpg'/></animated.div>,
   ({ style }) => <animated.div style={{ ...style, background: 'transparent' }}><img  style={{...style, width: '45vw', height:'40vh'}} src='/Images/VM2.jpg'/></animated.div>,
